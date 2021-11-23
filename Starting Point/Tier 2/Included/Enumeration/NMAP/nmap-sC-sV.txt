@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Sun Nov 21 20:46:24 2021 as: nmap -sC -sV -oN nmap-sC-sV.txt 10.129.217.95
+Nmap scan report for 10.129.217.95
+Host is up (0.65s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+| http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_Requested resource was http://10.129.217.95/?file=home.php
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov 21 20:47:30 2021 -- 1 IP address (1 host up) scanned in 65.22 seconds

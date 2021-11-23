@@ -1,0 +1,9 @@
+# Nmap 7.91 scan initiated Sun Nov 21 19:20:27 2021 as: nmap -sU -oN nmap-sU.txt 10.129.217.95
+Nmap scan report for 10.129.217.95
+Host is up (0.29s latency).
+Not shown: 998 closed ports
+PORT   STATE         SERVICE
+68/udp open|filtered dhcpc
+69/udp open|filtered tftp
+
+# Nmap done at Sun Nov 21 19:38:30 2021 -- 1 IP address (1 host up) scanned in 1083.15 seconds
