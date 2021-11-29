@@ -109,3 +109,11 @@ What executable is mentioned in the file mentioned before?
 
 wevtutil.exe
 
+10.129.95.192
+
+SUBMIT FLAG
+
+Submit user flag
+
+HTB{032d2fc8952a8c24e39c8f0ee9918ef7}
+
