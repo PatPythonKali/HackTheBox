@@ -117,3 +117,6 @@ Submit user flag
 
 HTB{032d2fc8952a8c24e39c8f0ee9918ef7}
 
+SUBMIT FLAG
+
+Submit root flag
